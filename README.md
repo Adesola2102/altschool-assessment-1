@@ -19,3 +19,10 @@ Both pages share a global navigation bar at the top and a footer with address an
 | 5 | Schema Validator | [`part-b/problem-5-schema-validator.js`](part-b/problem-5-schema-validator.js) |
 
 Run any solution with Node, e.g. `node part-b/problem-1-deep-equal.js`.
+
+## First Semester Assessment 2 – Figma to HTML & CSS
+- [`exam-2/index.html`](exam-2/index.html) – "Scissor" URL-shortener landing page built from the AltSchoolV2-Exam Figma design
+- [`exam-2/styles.css`](exam-2/styles.css) – styles (plain CSS, responsive, CSS-only mobile menu and `<details>` FAQ accordion)
+- [`exam-2/assets/waves.svg`](exam-2/assets/waves.svg) – wavy navy background used in the form and CTA sections
+
+Open `exam-2/index.html` in a browser to view it.
