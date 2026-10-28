@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scissor | URL Shortening Solution</title>
+  <meta name="description" content="Scissor – shorten, customise and track your links, and generate QR codes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ===== Header / navigation ===== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="Scissor home">
+        <svg class="logo__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M9 5a3 3 0 1 1-4.2 4.2M15 19a3 3 0 1 1 4.2-4.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="logo__text">SCISSOR</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav__toggle">
+      <label for="nav-toggle" class="nav__burger" aria-label="Toggle menu"><span></span></label>
+
+      <nav class="nav__menu" aria-label="Main navigation">
+        <ul class="nav__links">
+          <li><a href="#shorten" class="active">My URLs</a></li>
+          <li><a href="#features">Features <span class="caret" aria-hidden="true"></span></a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#features">Analytics</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+        </ul>
+        <div class="nav__actions">
+          <a href="#" class="link-blue">Log in</a>
+          <a href="#shorten" class="btn btn--primary btn--sm">Try for free</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <h1 class="hero__title">
+          Optimize Your Online Experience with Our Advanced
+          <span class="text-blue underline-curve">URL Shortening</span> Solution
+        </h1>
+        <p class="hero__text">
+          Personalize your shortened URLs to align with your brand identity. Utilize custom slugs,
+          branded links, and domain customization options to reinforce your brand presence and
+          enhance user engagement.
+        </p>
+        <div class="hero__actions">
+          <a href="#shorten" class="btn btn--primary">Sign Up</a>
+          <a href="#features" class="link-blue">Learn more</a>
+        </div>
+
+        <figure class="hero__visual">
+          <div class="hero__card">
+            <div class="hero__links" aria-hidden="true">
+              <svg viewBox="0 0 150 32">
+                <g fill="none" stroke="#1e3448" stroke-width="2">
+                  <rect x="2" y="9" width="28" height="14" rx="7"/>
+                  <rect x="22" y="9" width="28" height="14" rx="7"/>
+                  <rect x="42" y="9" width="28" height="14" rx="7"/>
+                  <rect x="62" y="9" width="28" height="14" rx="7"/>
+                  <rect x="120" y="9" width="28" height="14" rx="7"/>
+                </g>
+                <path d="M98 16h14m-4-4 4 4-4 4" fill="none" stroke="#005ae2" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <figcaption>Seamlessly transform your long URLs into concise and shareable links with just few clicks.</figcaption>
+          </div>
+          <div class="hero__platform" aria-hidden="true"></div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== Stats ===== -->
+    <section class="stats" aria-label="Scissor in numbers">
+      <div class="container stats__inner">
+        <h2 class="stats__title">One Stop.<br>Four <span class="text-blue">Possibilities.</span></h2>
+        <ul class="stats__list">
+          <li><strong>3M</strong><span>Active users</span></li>
+          <li><strong>60M</strong><span>Links &amp; QR codes created</span></li>
+          <li><strong>1B</strong><span>Clicked &amp; Scanned connections</span></li>
+          <li><strong>300k</strong><span>App Integrations</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Why choose ===== -->
+    <section class="why" id="features">
+      <div class="container why__inner">
+        <div class="why__intro">
+          <h2 class="section-title">Why choose <span class="text-blue">Scissors</span></h2>
+          <p>
+            Scissors is the hub of everything that has to do with your link management. We shorten
+            your URLs, allow you creating custom ones for your personal, business, event usage. Our
+            swift QR code creation, management and usage tracking with advance analytics for all of
+            these is second to none.
+          </p>
+        </div>
+
+        <div class="features">
+          <article class="feature">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>
+            </span>
+            <h3>URL Shortening</h3>
+            <p>Scissor allows you to shorten URLs of your business, events. Shorten your URL at scale, URL redirects.</p>
+          </article>
+          <article class="feature">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M11 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-6M17 3l4 4-9 9H8v-4z"/></svg>
+            </span>
+            <h3>Custom URLs</h3>
+            <p>With Scissor, you can create custom URLs, with the length you want! A solution for socials and businesses.</p>
+          </article>
+          <article class="feature">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 18h2v2h-2zM14 18h2M18 14h2"/></svg>
+            </span>
+            <h3>QR Codes</h3>
+            <p>Generate QR codes to your business, events. Bring your audience and customers to your doorstep with this scan and go solution.</p>
+          </article>
+          <article class="feature">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg>
+            </span>
+            <h3>Data Analytics</h3>
+            <p>Receive data on the usage of either your shortened URL, custom URLs or generated QR codes. Embedded to monitor progress.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Pricing ===== -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <header class="pricing__head">
+          <h2 class="section-title">A <span class="text-blue">price perfect</span> for your needs.</h2>
+          <p>From catering for your personal, business, event, socials needs, you can be rest assured we have you in mind in our pricing.</p>
+        </header>
+
+        <div class="plans">
+          <article class="plan">
+            <p class="plan__name">Basic</p>
+            <h3 class="plan__price">Free</h3>
+            <p class="plan__desc">Free plan for all users</p>
+            <ul class="plan__list">
+              <li>Unlimited URL Shortening</li>
+              <li>Basic Link Analytics</li>
+              <li>Customizable Short Links</li>
+              <li>Standard Support</li>
+              <li>Ad-supported</li>
+            </ul>
+          </article>
+
+          <article class="plan plan--featured">
+            <p class="plan__name">Professional</p>
+            <h3 class="plan__price">$15/month</h3>
+            <p class="plan__desc">Ideal for business creators</p>
+            <ul class="plan__list">
+              <li>Enhanced Link Analytics</li>
+              <li>Custom Branded Domains</li>
+              <li>Advanced Link Customization</li>
+              <li>Priority Support</li>
+              <li>Ad-free Experience</li>
+            </ul>
+          </article>
+
+          <article class="plan">
+            <p class="plan__name">Teams</p>
+            <h3 class="plan__price">$25/month</h3>
+            <p class="plan__desc">Share with up to 10 users</p>
+            <ul class="plan__list">
+              <li>Team Collaboration</li>
+              <li>User Roles and Permissions</li>
+              <li>Enhanced Security</li>
+              <li>API Access</li>
+              <li>Dedicated Account Manager</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="pricing__actions">
+          <a href="#" class="btn btn--outline">Get Custom Pricing</a>
+          <a href="#" class="btn btn--primary">Select Pricing</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Shorten form ===== -->
+    <section class="shorten waves" id="shorten" aria-label="Shorten a URL">
+      <form class="shorten__card" action="#" method="get">
+        <label class="visually-hidden" for="long-url">Long URL</label>
+        <input class="field" type="url" id="long-url" name="url" placeholder="Paste URL here..." required>
+
+        <div class="shorten__row">
+          <label class="visually-hidden" for="domain">Domain</label>
+          <select class="field field--select" id="domain" name="domain">
+            <option value="" selected disabled>Choose Domain</option>
+            <option value="scissor.ly">scissor.ly</option>
+            <option value="scsr.co">scsr.co</option>
+          </select>
+          <label class="visually-hidden" for="alias">Alias</label>
+          <input class="field" type="text" id="alias" name="alias" placeholder="Type Alias here">
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--block">
+          Trim URL
+          <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M9 5a3 3 0 1 1-4.2 4.2M15 19a3 3 0 1 1 4.2-4.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+
+        <p class="shorten__terms">
+          By clicking TrimURL, I agree to the <a href="#"><strong>Terms of Service</strong></a>,
+          <a href="#"><strong>Privacy Policy</strong></a> and Use of Cookies.
+        </p>
+      </form>
+    </section>
+
+    <!-- ===== FAQs ===== -->
+    <section class="faqs" id="faqs">
+      <div class="container faqs__inner">
+        <h2 class="section-title section-title--center">FAQs</h2>
+
+        <div class="faq-list">
+          <details class="faq" open>
+            <summary>How does URL shortening work?</summary>
+            <p>URL shortening works by taking a long URL and creating a shorter, condensed version that redirects to the original URL. When a user clicks on the shortened link, they are redirected to the intended destination.</p>
+          </details>
+          <details class="faq">
+            <summary>Is it necessary to create an account to use the URL shortening service?</summary>
+            <p>No, you can shorten links without an account. Creating a free account lets you save, edit and track all of your links in one place.</p>
+          </details>
+          <details class="faq">
+            <summary>Are the shortened links permanent? Will they expire?</summary>
+            <p>Shortened links are permanent by default. You can choose to set an expiry date on any link from your dashboard.</p>
+          </details>
+          <details class="faq">
+            <summary>Are there any limitations on the number of URLs I can shorten?</summary>
+            <p>Every plan, including the free Basic plan, comes with unlimited URL shortening.</p>
+          </details>
+          <details class="faq">
+            <summary>Can I customize the shortened URLs to reflect my brand or content?</summary>
+            <p>Yes. Add a custom alias to any link, and on the Professional plan connect your own branded domain.</p>
+          </details>
+          <details class="faq">
+            <summary>Can I track the performance of my shortened URLs?</summary>
+            <p>Yes. Our analytics show clicks, locations, devices and referrers for each of your links and QR codes.</p>
+          </details>
+          <details class="faq">
+            <summary>How secure is the URL shortening service? Are the shortened links protected against spam or malicious activity?</summary>
+            <p>All links are served over HTTPS and scanned for spam and malware, and abusive links are disabled automatically.</p>
+          </details>
+          <details class="faq">
+            <summary>What is a QR code and what can it do?</summary>
+            <p>A QR code is a scannable image that opens a link on a phone camera. Use it on posters, packaging and menus to bring people straight to your content.</p>
+          </details>
+          <details class="faq">
+            <summary>Is there an API available for integrating the URL shortening service into my own applications or websites?</summary>
+            <p>Yes. The Teams plan includes API access so you can create and manage links from your own apps.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta waves" aria-labelledby="cta-title">
+      <h2 id="cta-title">Revolutionizing Link Optimization</h2>
+      <a href="#shorten" class="btn btn--primary">Get Started</a>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a class="logo" href="#top" aria-label="Scissor home">
+          <svg class="logo__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M9 5a3 3 0 1 1-4.2 4.2M15 19a3 3 0 1 1 4.2-4.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span class="logo__text">SCISSOR</span>
+        </a>
+        <ul class="socials">
+          <li><a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M22 5.9c-.7.3-1.5.5-2.3.6a4 4 0 0 0 1.8-2.2c-.8.5-1.7.8-2.6 1a4 4 0 0 0-6.9 3.7A11.4 11.4 0 0 1 3.7 4.8a4 4 0 0 0 1.2 5.4c-.6 0-1.3-.2-1.8-.5 0 2 1.4 3.6 3.2 4a4 4 0 0 1-1.8.1 4 4 0 0 0 3.8 2.8A8 8 0 0 1 2 18.2 11.4 11.4 0 0 0 19.5 8.3v-.5c.9-.5 1.9-1.2 2.5-1.9z"/></svg></a></li>
+          <li><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm0 7.4a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8zM17.2 5.7a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 1.8A3.2 3.2 0 0 0 3.8 7v10A3.2 3.2 0 0 0 7 20.2h10a3.2 3.2 0 0 0 3.2-3.2V7A3.2 3.2 0 0 0 17 3.8z"/></svg></a></li>
+          <li><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM8 19H5V9h3zM6.5 7.7a1.7 1.7 0 1 1 0-3.5 1.7 1.7 0 0 1 0 3.5zM19 19h-3v-5c0-1.2 0-2.7-1.6-2.7S12.5 12.6 12.5 14v5h-3V9h2.8v1.4c.4-.8 1.4-1.6 2.9-1.6 3.1 0 3.7 2 3.7 4.7z"/></svg></a></li>
+          <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8.6v-7.7H10v-3h2.6V9c0-2.6 1.6-4 3.9-4l2.3.1v2.7h-1.6c-1.3 0-1.5.6-1.5 1.5v1.9h3l-.4 3h-2.6V22H20a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg></a></li>
+        </ul>
+      </div>
+
+      <nav class="footer__links" aria-label="Footer">
+        <div class="footer__col">
+          <h3>Why Scissor ?</h3>
+          <ul><li><a href="#">Scissor 101</a></li><li><a href="#">Integrations &amp; API</a></li><li><a href="#pricing">Pricing</a></li></ul>
+        </div>
+        <div class="footer__col">
+          <h3>Solutions</h3>
+          <ul><li><a href="#">Social Media</a></li><li><a href="#">Digital Marketing</a></li><li><a href="#">Customer Service</a></li><li><a href="#">For Developers</a></li></ul>
+        </div>
+        <div class="footer__col">
+          <h3>Products</h3>
+          <ul><li><a href="#">Link Management</a></li><li><a href="#">QR Codes</a></li><li><a href="#">Link-in-bio</a></li></ul>
+        </div>
+        <div class="footer__col footer__col--company">
+          <h3>Company</h3>
+          <ul><li><a href="#">About Scissor</a></li><li><a href="#">Careers</a></li><li><a href="#">Partners</a></li><li><a href="#">Press</a></li><li><a href="#">Contact</a></li><li><a href="#">Reviews</a></li></ul>
+        </div>
+        <div class="footer__col">
+          <h3>Resources</h3>
+          <ul><li><a href="#">Blog</a></li><li><a href="#">Resource Library</a></li><li><a href="#">Developers</a></li><li><a href="#">App Connectors</a></li><li><a href="#">Support</a></li><li><a href="#">Trust Center</a></li><li><a href="#">Browser Extension</a></li><li><a href="#">Mobile App</a></li></ul>
+        </div>
+        <div class="footer__col">
+          <h3>Features</h3>
+          <ul><li><a href="#">Branded Links</a></li><li><a href="#">Mobile Links</a></li><li><a href="#">Campaign Management &amp; Analytics</a></li><li><a href="#">QR Code generation</a></li></ul>
+        </div>
+        <div class="footer__col">
+          <h3>Legal</h3>
+          <ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Cookie Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#">Acceptable Use Policy</a></li><li><a href="#">Code of Conduct</a></li></ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container footer__bottom">
+      <p><a href="#">Term of Service</a> | <a href="#">Security</a> | <span>&copy; Scissor 2023</span></p>
+    </div>
+  </footer>
+</body>
+</html>
