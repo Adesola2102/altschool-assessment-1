@@ -186,7 +186,7 @@ figure {
 /* Section headings with the thin vertical accent bar */
 .section-title {
   position: relative;
-  padding-left: 12px;
+  padding-left: 18px;
   font-size: 2.5rem;
   font-weight: 600;
   line-height: 1.2;
@@ -196,10 +196,12 @@ figure {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.12em;
-  width: 2px;
-  height: 1em;
-  background: var(--text);
+  top: 0.06em;
+  width: 4px;
+  height: 1.32em;
+  border-radius: 2px;
+  /* Dark at the top, fading to slate blue at the bottom, as in the design */
+  background: linear-gradient(180deg, #141414 0%, #1e3448 50%, rgba(92, 111, 143, 0.55) 100%);
 }
 
 .section-title--center {
@@ -496,7 +498,7 @@ figure {
 }
 
 .pricing__head p {
-  max-width: 548px;
+  max-width: 505px;
   margin: 11px auto 0;
   font-size: 0.9375rem;
   line-height: 25px;
