@@ -745,8 +745,9 @@ figure {
 .site-footer {
   padding: 95px 0 40px;
   background:
-    radial-gradient(35% 60% at 0% 100%, rgba(0, 101, 254, 0.08), transparent 70%),
-    radial-gradient(35% 60% at 100% 100%, rgba(0, 101, 254, 0.08), transparent 70%);
+    url("assets/footer-blob-left.webp") left 0 top 97px / 326px auto no-repeat,
+    url("assets/footer-blob-right.webp") right bottom / 474px auto no-repeat,
+    var(--white);
   color: var(--text);
 }
 
@@ -756,9 +757,15 @@ figure {
   padding-left: 72px;
 }
 
+.footer__brand .logo {
+  display: block;
+  width: fit-content;
+  margin-left: -12px;
+}
+
 .socials {
   display: flex;
-  gap: 18px;
+  gap: 24px;
   margin-top: 30px;
 }
 
@@ -811,6 +818,15 @@ figure {
   margin-top: 20px;
   text-align: right;
   font-size: 0.875rem;
+  color: #2b2b2b;
+}
+
+.footer__bottom .sep {
+  margin: 0 9px;
+}
+
+.footer__bottom .copy {
+  margin-left: 11px;
 }
 
 .footer__bottom a:hover {
@@ -856,6 +872,10 @@ figure {
 
   .footer__inner {
     padding-left: 0;
+  }
+
+  .footer__brand .logo {
+    margin-left: 0;
   }
 
   .footer__links {
