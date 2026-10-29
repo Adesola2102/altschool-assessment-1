@@ -744,8 +744,13 @@ figure {
 /* ---------- Footer ---------- */
 .site-footer {
   padding: 95px 0 40px;
+  /* Three stacked layers of each shape, darker towards the corners */
   background:
-    url("assets/footer-blob-left.webp") left 0 top 97px / 326px auto no-repeat,
+    url("assets/footer-blob-left.webp") left bottom / 218px 261px no-repeat,
+    url("assets/footer-blob-left.webp") left bottom / 258px 361px no-repeat,
+    url("assets/footer-blob-left.webp") left bottom / 326px auto no-repeat,
+    url("assets/footer-blob-right.webp") right bottom / 283px auto no-repeat,
+    url("assets/footer-blob-right.webp") right bottom / 390px auto no-repeat,
     url("assets/footer-blob-right.webp") right bottom / 474px auto no-repeat,
     var(--white);
   color: var(--text);
@@ -760,7 +765,7 @@ figure {
 .footer__brand .logo {
   display: block;
   width: fit-content;
-  margin-left: -12px;
+  margin-left: -8px;
 }
 
 .socials {
@@ -804,9 +809,9 @@ figure {
 .footer__col ul {
   display: grid;
   gap: 2px;
-  max-width: 170px;
+  max-width: 175px;
   margin-top: 12px;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   line-height: 22px;
 }
 
