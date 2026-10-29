@@ -16,9 +16,8 @@
   <!-- ===== Header / navigation ===== -->
   <header class="site-header">
     <div class="container nav">
-      <a class="logo" href="#top" aria-label="Scissor home">
-        <svg class="logo__icon" viewBox="0 0 24 24" aria-hidden="true"><g transform="rotate(-45 12 12)" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M10 7.5H7a4.5 4.5 0 0 0 0 9h3M14 7.5h3a4.5 4.5 0 0 1 0 9h-3M8.5 12h7"/></g></svg>
-        <span class="logo__text">SCISSOR</span>
+      <a class="logo" href="#top">
+        <img src="assets/logo.svg" alt="Scissor" width="155" height="40">
       </a>
 
       <input type="checkbox" id="nav-toggle" class="nav__toggle">
@@ -34,7 +33,7 @@
         </ul>
         <div class="nav__actions">
           <a href="#" class="link-blue">Log in</a>
-          <a href="#shorten" class="btn btn--primary btn--sm">Try for free</a>
+          <a href="#shorten" class="btn btn--primary btn--nav">Try for free</a>
         </div>
       </nav>
     </div>
@@ -46,7 +45,7 @@
       <div class="container hero__inner">
         <h1 class="hero__title">
           Optimize Your Online Experience with Our <br class="hero__break">
-          Advanced <span class="text-blue">URL <span class="swoosh">Shortening</span></span> Solution
+          Advanced <span class="swoosh text-blue">URL Shortening</span> Solution
         </h1>
         <p class="hero__text">
           Personalize your shortened URLs to align with your brand identity. Utilize custom slugs,
@@ -54,38 +53,29 @@
           enhance user engagement.
         </p>
         <div class="hero__actions">
-          <a href="#shorten" class="btn btn--primary">Sign Up</a>
+          <a href="#shorten" class="btn btn--primary btn--hero">Sign Up</a>
           <a href="#features" class="link-blue">Learn more</a>
         </div>
 
         <figure class="hero__visual">
+          <img class="hero__blob" src="assets/blob.svg" alt="" width="246" height="258">
           <div class="hero__card">
-            <svg class="hero__chain" viewBox="0 0 330 34" aria-hidden="true">
-              <g fill="none" stroke="#141414" stroke-width="2.4" stroke-linecap="round">
-                <rect x="2" y="3" width="66" height="28" rx="14"/>
-                <rect x="54" y="3" width="66" height="28" rx="14"/>
-                <rect x="106" y="3" width="66" height="28" rx="14"/>
-                <path d="M20 17h30M72 17h30M124 17h30"/>
-                <rect x="262" y="3" width="66" height="28" rx="14"/>
-                <path d="M280 17h30"/>
-              </g>
-              <path d="M200 17h32m-6-5 6 5-6 5" fill="none" stroke="#005ae2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <img class="hero__chain" src="assets/chain.svg" alt="" width="384" height="80">
             <figcaption>Seamlessly transform your long URLs into <strong>concise</strong> and <strong>shareable links</strong> with just few clicks.</figcaption>
           </div>
         </figure>
       </div>
-      <div class="hero__stage" aria-hidden="true"></div>
+      <img class="hero__stage" src="assets/stage.svg" alt="" width="1440" height="93">
     </section>
 
     <!-- ===== Stats ===== -->
     <section class="stats" aria-label="Scissor in numbers">
       <div class="container stats__inner">
-        <h2 class="stats__title">One Stop.<br>Four <span class="text-blue">Possibilities.</span></h2>
+        <h2 class="stats__title">One Stop.<br>Four <span class="text-blue">Possibilities</span>.</h2>
         <ul class="stats__list">
           <li><strong>3M</strong><span>Active users</span></li>
-          <li><strong>60M</strong><span>Links &amp; QR codes created</span></li>
-          <li><strong>1B</strong><span>Clicked &amp; Scanned connections</span></li>
+          <li><strong>60M</strong><span>Links &amp; QR<br>codes created</span></li>
+          <li><strong>1B</strong><span>Clicked &amp; Scanned<br>connections</span></li>
           <li><strong>300k</strong><span>App Integrations</span></li>
         </ul>
       </div>
@@ -106,30 +96,22 @@
 
         <div class="features">
           <article class="feature">
-            <span class="feature__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg>
-            </span>
+            <span class="feature__icon"><img src="assets/icon-link.svg" alt="" width="24" height="24"></span>
             <h3>URL Shortening</h3>
             <p>Scissor allows you to shorten URLs of your business, events. Shorten your URL at scale, URL redirects.</p>
           </article>
           <article class="feature">
-            <span class="feature__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M11 4H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-6M17 3l4 4-9 9H8v-4z"/></svg>
-            </span>
+            <span class="feature__icon"><img src="assets/icon-edit.svg" alt="" width="24" height="24"></span>
             <h3>Custom URLs</h3>
             <p>With Scissor, you can create custom URLs, with the length you want! A solution for socials and businesses.</p>
           </article>
           <article class="feature">
-            <span class="feature__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 18h2v2h-2zM14 18h2M18 14h2"/></svg>
-            </span>
+            <span class="feature__icon"><img src="assets/icon-grid.svg" alt="" width="24" height="24"></span>
             <h3>QR Codes</h3>
             <p>Generate QR codes to your business, events. Bring your audience and customers to your doorstep with this scan and go solution.</p>
           </article>
           <article class="feature">
-            <span class="feature__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg>
-            </span>
+            <span class="feature__icon"><img src="assets/icon-activity.svg" alt="" width="24" height="24"></span>
             <h3>Data Analytics</h3>
             <p>Receive data on the usage of either your shortened URL, custom URLs or generated QR codes. Embedded to monitor progress.</p>
           </article>
@@ -187,8 +169,8 @@
         </div>
 
         <div class="pricing__actions">
-          <a href="#" class="btn btn--outline">Get Custom Pricing</a>
-          <a href="#" class="btn btn--primary">Select Pricing</a>
+          <a href="#" class="btn btn--outline btn--plan">Get Custom Pricing</a>
+          <a href="#" class="btn btn--primary btn--plan">Select Pricing</a>
         </div>
       </div>
     </section>
@@ -224,7 +206,7 @@
 
     <!-- ===== FAQs ===== -->
     <section class="faqs" id="faqs">
-      <div class="container faqs__inner">
+      <div class="container">
         <h2 class="section-title section-title--center">FAQs</h2>
 
         <div class="faq-list">
@@ -271,7 +253,7 @@
     <!-- ===== CTA ===== -->
     <section class="cta waves" aria-labelledby="cta-title">
       <h2 id="cta-title">Revolutionizing Link Optimization</h2>
-      <a href="#shorten" class="btn btn--primary">Get Started</a>
+      <a href="#shorten" class="btn btn--primary btn--cta">Get Started</a>
     </section>
   </main>
 
@@ -279,15 +261,14 @@
   <footer class="site-footer">
     <div class="container footer__inner">
       <div class="footer__brand">
-        <a class="logo" href="#top" aria-label="Scissor home">
-          <svg class="logo__icon" viewBox="0 0 24 24" aria-hidden="true"><g transform="rotate(-45 12 12)" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M10 7.5H7a4.5 4.5 0 0 0 0 9h3M14 7.5h3a4.5 4.5 0 0 1 0 9h-3M8.5 12h7"/></g></svg>
-          <span class="logo__text">SCISSOR</span>
+        <a class="logo" href="#top">
+          <img src="assets/logo-dark.svg" alt="Scissor" width="155" height="40">
         </a>
         <ul class="socials">
-          <li><a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M22 5.9c-.7.3-1.5.5-2.3.6a4 4 0 0 0 1.8-2.2c-.8.5-1.7.8-2.6 1a4 4 0 0 0-6.9 3.7A11.4 11.4 0 0 1 3.7 4.8a4 4 0 0 0 1.2 5.4c-.6 0-1.3-.2-1.8-.5 0 2 1.4 3.6 3.2 4a4 4 0 0 1-1.8.1 4 4 0 0 0 3.8 2.8A8 8 0 0 1 2 18.2 11.4 11.4 0 0 0 19.5 8.3v-.5c.9-.5 1.9-1.2 2.5-1.9z"/></svg></a></li>
-          <li><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm0 7.4a2.9 2.9 0 1 1 0-5.8 2.9 2.9 0 0 1 0 5.8zM17.2 5.7a1 1 0 1 0 0 2 1 1 0 0 0 0-2zM7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 1.8A3.2 3.2 0 0 0 3.8 7v10A3.2 3.2 0 0 0 7 20.2h10a3.2 3.2 0 0 0 3.2-3.2V7A3.2 3.2 0 0 0 17 3.8z"/></svg></a></li>
-          <li><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM8 19H5V9h3zM6.5 7.7a1.7 1.7 0 1 1 0-3.5 1.7 1.7 0 0 1 0 3.5zM19 19h-3v-5c0-1.2 0-2.7-1.6-2.7S12.5 12.6 12.5 14v5h-3V9h2.8v1.4c.4-.8 1.4-1.6 2.9-1.6 3.1 0 3.7 2 3.7 4.7z"/></svg></a></li>
-          <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8.6v-7.7H10v-3h2.6V9c0-2.6 1.6-4 3.9-4l2.3.1v2.7h-1.6c-1.3 0-1.5.6-1.5 1.5v1.9h3l-.4 3h-2.6V22H20a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg></a></li>
+          <li><a href="#" aria-label="Twitter"><img src="assets/icon-twitter.svg" alt="" width="24" height="24"></a></li>
+          <li><a href="#" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="" width="24" height="24"></a></li>
+          <li><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM8 19H5V9h3zM6.5 7.7a1.7 1.7 0 1 1 0-3.5 1.7 1.7 0 0 1 0 3.5zM19 19h-3v-5c0-1.2 0-2.7-1.6-2.7S12.5 12.6 12.5 14v5h-3V9h2.8v1.4c.4-.8 1.4-1.6 2.9-1.6 3.1 0 3.7 2 3.7 4.7z"/></svg></a></li>
+          <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8.6v-7.7H10v-3h2.6V9c0-2.6 1.6-4 3.9-4l2.3.1v2.7h-1.6c-1.3 0-1.5.6-1.5 1.5v1.9h3l-.4 3h-2.6V22H20a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg></a></li>
         </ul>
       </div>
 
@@ -314,7 +295,7 @@
         </div>
         <div class="footer__col">
           <h3>Features</h3>
-          <ul><li><a href="#">Branded Links</a></li><li><a href="#">Mobile Links</a></li><li><a href="#">Campaign Management &amp; Analytics</a></li><li><a href="#">QR Code generation</a></li></ul>
+          <ul><li><a href="#">Branded Links</a></li><li><a href="#">Mobile Links</a></li><li><a href="#">Campaign<br>Management &amp;<br>Analytics</a></li><li><a href="#">QR Code generation</a></li></ul>
         </div>
         <div class="footer__col">
           <h3>Legal</h3>
@@ -324,7 +305,7 @@
     </div>
 
     <div class="container footer__bottom">
-      <p><a href="#">Term of Service</a> | <a href="#">Security</a> | <span>&copy; Scissor 2023</span></p>
+      <p><a href="#">Term of Service</a> | <a href="#">Security</a> | <span>Scissor 2023</span></p>
     </div>
   </footer>
 </body>
